@@ -1,4 +1,5 @@
 .container {
+<<<<<<< HEAD
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -43,3 +44,46 @@
   #song-container p {
     font-size: 18px;
   }
+=======
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+label, input {
+	display: block;
+	margin: 10px;
+}
+
+button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#song-info {
+	display: none;
+	margin-top: 20px;
+}
+>>>>>>> parent of 1a449ab (dark mode implemented)
