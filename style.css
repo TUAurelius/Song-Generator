@@ -40,3 +40,30 @@ button:hover {
 	display: none;
 	margin-top: 20px;
 }
+
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #333;
+        --text-color: #fff;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    
+    /* Adjust other styles as needed */
+}
+
