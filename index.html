@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Song Generator</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-      <h1>Song Generator</h1>
-      <form>
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required>
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" required>
-        <label for="birthdate">Birth Date:</label>
-        <input type="date" id="birthdate" name="birthdate" required>
-        <button type="button" onclick="generateSong()">Generate Song</button>
-      </form>
-      <div id="song-container">
-      </div>
-    </div>
-    <script src="app.js"></script>
-  </body>
+<head>
+	<title>Random Song Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Random Song Generator</h1>
+		<form>
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" name="first-name" required>
+			<label for="last-name">Last Name:</label>
+			<input type="text" id="last-name" name="last-name" required>
+			<label for="birth-date">Birth Date:</label>
+			<input type="date" id="birth-date" name="birth-date" required>
+			<button type="submit">Generate Song</button>
+		</form>
+		<div id="song-info"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
 </html>

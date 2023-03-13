@@ -1,50 +1,4 @@
 .container {
-<<<<<<< HEAD
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  label, input {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #1db954;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0e8042;
-  }
-  
-  #song-container {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  #song-container h2 {
-    margin-bottom: 10px;
-  }
-  
-  #song-container p {
-    font-size: 18px;
-  }
-=======
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px;
@@ -86,7 +40,3 @@ button:hover {
 	display: none;
 	margin-top: 20px;
 }
-<<<<<<< HEAD
->>>>>>> parent of 1a449ab (dark mode implemented)
-=======
->>>>>>> parent of 1a449ab (dark mode implemented)
